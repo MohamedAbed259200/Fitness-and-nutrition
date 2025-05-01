@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Exercise</title>
+     <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: ltr;
+            text-align: left;
+            background-color: #0f4402;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        .exercise-list {
+            list-style: none;
+            padding: 0;
+        }
+        .exercise-list li {
+            background: #e3e3e3;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .exercise-list li:hover {
+            background: #d1d1d1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Exercise</h1>
+        <p>Practice the following exercises daily to maintain your fitness and health:</p>
+        <ul class="exercise-list">
+            <li onclick="showMessage('Push-ups enhance upper body strength.')">Push-ups</li>
+            <li onclick="showMessage('Squats strengthen leg muscles and improve balance.')">Squats</li>
+            <li onclick="showMessage('Running helps improve cardiovascular health.')">Running</li>
+            <li onclick="showMessage('Plank exercise strengthens the core and improves stability.')">Plank</li>
+        </ul>
+        <p id="message" style="font-weight: bold; color: #e74c3c;"></p>
+    </div>
+    <script>
+        function showMessage(message) {
+            document.getElementById('message').innerText = message;
+        }
+    </script>
+</body>
+</html>

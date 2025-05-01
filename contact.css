@@ -1,0 +1,69 @@
+body{
+    background-color: #ec6206;
+}
+
+.contact-right{
+    flex-basis: 50%;
+}
+.contact-right img{
+    width: 100%;
+}
+.contact-left{
+    flex-basis: 50%;
+    
+}
+.contact-left h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+form{
+    max-width: 350px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 13px 0;
+    outline: none;
+    border: 2px solid rgb(1, 31, 1);
+    box-shadow: none;
+    box-sizing: border-box;
+}
+.contact-sign button{
+   border: 0;
+   background-color: white;
+   border: 2px solid rgb(1, 31, 1);
+   padding: 20px 40px ;
+   width: 49.3%;
+   justify-content: space-between;
+   font-weight: bold;
+   cursor: pointer;
+}
+.contact-sign button a{
+    text-decoration: none;
+    color: black;
+}
+.contact-sign button:hover{
+    background-color: rgb(1, 31, 1);
+    color: white;
+}
+.contact-sign button a:hover{
+    color: white;
+}
+
+/* the section is footer */
+hr{
+    width: 100%;
+    margin: 40px 0px;
+}
+
+#home h2{
+    font-size: 29px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgba(255, 0, 64, 0.8);
+    font-weight: bold;
+}
+#home p{
+    font-size: 20px;
+    font-weight: 500;
+}
